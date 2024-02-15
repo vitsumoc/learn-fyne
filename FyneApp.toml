@@ -1,0 +1,8 @@
+Website = "https://vitsumoc.github.io/"
+
+[Details]
+  Icon = "icon.png"
+  Name = "learn-fyne"
+  ID = "com.vc.app"
+  Version = "1.0.0"
+  Build = 3
