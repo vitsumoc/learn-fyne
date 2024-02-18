@@ -27,8 +27,10 @@ func init() {
 }
 
 func main() {
-	i := 6
+	i := 28
 	switch i {
+	case 0:
+		myTest()
 	case 1:
 		firstApp() // 基础的程序、窗口
 	case 2:
@@ -41,5 +43,47 @@ func main() {
 		windows() // 窗口管理
 	case 6:
 		guiTest() // 图形化程序测试
+	case 8:
+		painter() // 手动绘制
+	case 9:
+		fLyaout() // 布局能力
+	case 10:
+		shortcuts() // 窗口快捷键 组件快捷键
+	case 11:
+		preferences() // 首选项存取
+	case 12:
+		sysTray() // 系统托盘
+	case 13:
+		dataBinding() // 数据绑定
+	case 14:
+		drawing() // 图形绘制
+	case 15:
+		animation() // 动画
+	case 16:
+		layoutBox() // box 布局
+	case 17:
+		layoutGrid() // 网格布局
+	case 18:
+		layoutGridWarp() // 自适应网格布局
+	case 19:
+		layoutBorder() // 盒子布局
+	case 20:
+		layoutForm() // 表单布局
+	case 21:
+		layoutCenter() // 居中布局
+	case 22:
+		layoutMax() // 占满布局
+	case 23:
+		appTab() // 标签页
+	case 24:
+		fWidgets() // 各种组件
+	case 25:
+		fForm() // 表单
+	case 26:
+		fToolBar() // 工具栏
+	case 27:
+		fContainer() // 容器（列表 表格 树
+	case 28:
+		fDataBinding() // 数据绑定详细
 	}
 }
