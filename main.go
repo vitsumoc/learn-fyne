@@ -27,7 +27,7 @@ func init() {
 }
 
 func main() {
-	i := 28
+	i := 34
 	switch i {
 	case 0:
 		myTest()
@@ -43,6 +43,7 @@ func main() {
 		windows() // 窗口管理
 	case 6:
 		guiTest() // 图形化程序测试
+	// 7 构建
 	case 8:
 		painter() // 手动绘制
 	case 9:
@@ -85,5 +86,16 @@ func main() {
 		fContainer() // 容器（列表 表格 树
 	case 28:
 		fDataBinding() // 数据绑定详细
+	case 29:
+		customLayout() // 自定义布局
+	case 30:
+		customWidget() // 自定义组件
+		// 31 打包静态资源
+	case 32:
+		customTheme() // 自定义主题
+	case 33:
+		extendingWidgets() // 扩展现有组件
+	case 34:
+		fNumericalEntry() // 自定义数字输入组件
 	}
 }
